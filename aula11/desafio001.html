@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio se e então</title>
+</head>
+<body>
+    <h1>Local de moradia</h1>
+    País onde mora: <input type="text" name="txtloc" id="txtloc">
+    <input type="button" value="Verificar" onclick="Text">
+    <div id="est">
+
+    </div>
+    <script>
+        function text() {
+            var txtl = document.getElementById('txtloc')
+            var est = document.getElementById('est')
+                       
+            est.innerHTML = `<p>Sua nacionalidade atual é: ${loc}</p>`
+                if(país != 'Brasil') {
+                    est.innerHTML += `<p>Você é Brasileiro!</p>`
+                } else {
+                    est.innerHTML +=`<p>Você é estrangeiro!</p>`
+                }
+        }
+    </script>
+</body>
+</html>
