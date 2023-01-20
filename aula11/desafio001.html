@@ -9,20 +9,20 @@
 <body>
     <h1>Local de moradia</h1>
     País onde mora: <input type="text" name="txtloc" id="txtloc">
-    <input type="button" value="Verificar" onclick="Text">
-    <div id="est">
+    <input type="button" value="Verificar" onclick="calcular">
+    <div id="nas">
 
     </div>
     <script>
-        function text() {
+        function calcular() {
             var txtl = document.getElementById('txtloc')
-            var est = document.getElementById('est')
-                       
-            est.innerHTML = `<p>Sua nacionalidade atual é: ${loc}</p>`
+            var est = document.getElementById('nas')
+                      
+            nas.innerHTML = `<p>Sua nacionalidade atual é: ${loc}</p>`
                 if(país != 'Brasil') {
-                    est.innerHTML += `<p>Você é Brasileiro!</p>`
+                    nas.innerHTML += `<p>Você é Brasileiro!</p>`
                 } else {
-                    est.innerHTML +=`<p>Você é estrangeiro!</p>`
+                    nas.innerHTML +=`<p>Você é estrangeiro!</p>`
                 }
         }
     </script>
