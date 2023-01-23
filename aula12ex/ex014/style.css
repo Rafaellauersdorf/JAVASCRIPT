@@ -18,6 +18,13 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
 }
 
+div {
+    text-align: center;
+    padding: 7px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 footer {
     color: white;
     text-align: center;
