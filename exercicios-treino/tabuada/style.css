@@ -9,13 +9,19 @@ header {
     text-align: center;
 }
 
-section {
+section > div > p{
     background: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+}
+
+section > div {
+    text-align: center;
+    background-position: center;
+    margin-top: 10px;
 }
 
 footer {
